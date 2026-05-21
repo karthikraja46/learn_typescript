@@ -3,8 +3,8 @@ let y = 40;
 y = 50;
 console.log(y); // Output: 50
 
-y = 'Hello';
-console.log(y); // Error due to type safety in TypeScript
+// y = 'Hello';
+// console.log(y); // Error due to type safety in TypeScript
 
 //type safety in TypeScript
 let z: number = 60;
