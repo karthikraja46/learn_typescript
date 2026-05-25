@@ -38,8 +38,8 @@ console.log(numResult); // Output: 8 (numeric addition)
 let num1 = "5";
 let num2 = 3;
 
-let sum = num1 + num2;
-console.log(sum); // Output: "53" (string concatenation)
+// let sum = num1 + num2;
+// console.log(sum); // Output: "53" (string concatenation)
 
 let num_1:string = "5";
 let num_2:number = 3;

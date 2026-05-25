@@ -9,18 +9,18 @@
 // var : function scope
 // let, const : block scope
 
-var a = 10;
-console.log(a);
+// var a = 10;
+// console.log(a);
 
-let b = 20;
-console.log(b);
+// let b = 20;
+// console.log(b);
 
-const c = 30;
-console.log(c);  
+// const c = 30;
+// console.log(c);  
 
 
-var age = 30;
-console.log("age");
+// var age = 30;
+// console.log("age");
 
 // var age = 30";
 // console.log(age);
