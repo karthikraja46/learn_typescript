@@ -67,3 +67,36 @@ function findElements(...elements:(number | string)[]): number{
 
 let finding_elements = findElements(3,"john",5,"karthik");
 console.log(finding_elements);
+
+// Example 5: Named Function with optional parameters
+
+// ? makes the parameter optional
+
+function displayDetails(id: number, name: string, emailId?: string): void {
+
+    console.log("Id:", id);
+    console.log("Name:", name);
+
+    if (emailId === undefined) {
+        console.log("Email is not provided");
+    } else {
+        console.log("Email:", emailId);
+    }
+}
+
+displayDetails(123, "Scoott", "scott@gmail.com");
+
+displayDetails(124, "Karthik");
+
+
+// Example 6: Named functions with default parameters
+
+function caluclateDiscount(price: number, rate: number=0.50): void{
+    let discount: number = price * rate;
+    console.log("discount amount", discount);
+
+}
+
+console.log(caluclateDiscount(1000)); //one argument is missing yet program will work
+console.log(caluclateDiscount(1000, 0.60));
+
