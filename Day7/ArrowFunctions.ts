@@ -23,12 +23,12 @@ variable();
 
 // Example 1 : Arrow function with no parameters and no return type
 
-let greet = (): void => 
-{
-    console.log('Hi typescript');
-}
+// let greet = (): void => 
+// {
+//     console.log('Hi typescript');
+// }
 
-greet();
+// greet();
 
 
 // Example 2: Arrow functions with paramters and a return type
