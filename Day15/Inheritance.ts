@@ -1,8 +1,10 @@
-// Inheritance:
-// A class can reuse the properties and methods of another class.
-//Inheritance is a mechanism where one class(child) can inherit the properties and methods of another class(parent)
-//Inheritance allows u to reuse the functionality of an existing class without rewriting it.
+// / Inheritance:
+// //A class can reuse the properties and methods of another class.
+// // Inheritance is a mechanism where one class (child) can inherit the properties and methods of another class (parent).
+// // Inheritance allows you to reuse the functionality of an existing class without rewriting it.
 
+// / Method Overriding:
+// // A subclass/child calss can provide a specific implementation of a method that is already defined in its superclass.
 
 // A ---- properties + methods (parent class/ BaseClass/ Super class)
 // B ---- properties_methods(child class/ subclass/ derived class)
