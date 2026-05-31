@@ -35,6 +35,9 @@ class Car {
     }
 }
 
+
+//using the super keyword u can inherit the properties of the parent class into the child class
+
 // Child Class
 class Honda extends Car {
     year: number;
